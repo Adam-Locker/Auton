@@ -33,7 +33,7 @@ public class Chassis extends Subsystem {
     }
     
     public void stop(){
-    	drive.arcadeDrive(0,0);
+    	tankDrive(0,0);
     }
 }
 
